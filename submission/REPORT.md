@@ -100,8 +100,8 @@ Việc cần làm tiếp:
 ## 8. Ghi chú cá nhân
 
 - **Dùng AI để làm bài**: Claude Code (Claude Opus) — chạy các script `validate_labels`, `threshold_sweep`, `merge_prelabels`, `inject_traps`, `sam2_points`; 
-- Gold có bị nhiễm không (bạn có nhìn pre-label hay hỏi AI trước khi gán xong)? <<không , như sau: bằng chứng thời gian. gold_manual.json được export lúc 12:30 ngày 17/11, còn lượt chạy model đầu tiên là 18:40 cùng ngày. Có ghi thêm 2 box person nhỏ hơn 20px trong gold.>>
+- Gold có bị nhiễm không (bạn có nhìn pre-label hay hỏi AI trước khi gán xong)? Không, như sau: bằng chứng thời gian. gold_manual.json được export lúc 12:30 ngày 17/11, còn lượt chạy model đầu tiên là 18:40 cùng ngày. Có ghi thêm 2 box person nhỏ hơn 20px trong gold.
 - Máy / GPU / CVAT dùng; vướng mắc cài đặt: Windows 11, RTX 3050 6GB Laptop (CUDA), chạy model local thay cho Colab; CVAT v2.81.0 (Docker); 
-Dùng cache data/cache/ thay vì tự chạy? <<không >>
-Lỗi / bug script đã gặp (nếu có): << không >>
-Một điều bạn làm khác lần sau: <<đọc guiline và checklist kĩ hơn>>
+- Dùng cache `data/cache/` thay vì tự chạy? Không
+- Lỗi / bug script đã gặp (nếu có): Không
+- Một điều bạn làm khác lần sau: đọc guideline và checklist kĩ hơn

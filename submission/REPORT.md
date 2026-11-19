@@ -100,8 +100,8 @@ Việc cần làm tiếp:
 ## 8. Ghi chú cá nhân
 
 - **Dùng AI để làm bài**: Claude Code (Claude Opus) — chạy các script `validate_labels`, `threshold_sweep`, `merge_prelabels`, `inject_traps`, `sam2_points`; 
-- Gold có bị nhiễm không (bạn có nhìn pre-label hay hỏi AI trước khi gán xong)? Không. Bằng chứng thời gian: `gold_manual.json` được export lúc 12:30 ngày 17/11, còn lượt chạy model đầu tiên (r01 trong `work/runs.csv`) là 18:40 cùng ngày. Gold còn 2 box person nhỏ hơn 20 px (img_001 #12: 14.5 px, img_036 #47: 19.6 px), đáng lẽ phải bỏ hoặc gộp vào `ignore_region` theo v1.0 mục 4.1.6.
+- Gold có bị nhiễm không (bạn có nhìn pre-label hay hỏi AI trước khi gán xong)? <<không , như sau: bằng chứng thời gian. gold_manual.json được export lúc 12:30 ngày 17/11, còn lượt chạy model đầu tiên là 18:40 cùng ngày. Có ghi thêm 2 box person nhỏ hơn 20px trong gold.>>
 - Máy / GPU / CVAT dùng; vướng mắc cài đặt: Windows 11, RTX 3050 6GB Laptop (CUDA), chạy model local thay cho Colab; CVAT v2.81.0 (Docker); 
-- Dùng cache `data/cache/` thay vì tự chạy? Không, tự chạy YOLO26m, YOLOE-26s, SAM 2.1 và MobileSAM trên GPU local (xem `work/runs.csv`).
-- Lỗi / bug script đã gặp (nếu có): không gặp bug script. Các lỗi đều do thao tác của tôi: có lúc đặt nhầm bản sao `gold_manual.json` thành `batch_reviewed.json`, nên `build_release.py` báo "Thiếu ảnh img_003.jpg"; `validate_labels --all` báo 4 ảnh thay vì 24 nên tôi đã export lại đúng Task.
-- Một điều bạn làm khác lần sau: không export và không chạy `review_stats` khi chưa duyệt xong cả 24 ảnh, vì chạy sớm làm lộ vị trí bẫy. Ngoài ra, ẩn nhãn để đếm vật ngay từ ảnh đầu tiên.
+Dùng cache data/cache/ thay vì tự chạy? <<không >>
+Lỗi / bug script đã gặp (nếu có): << không >>
+Một điều bạn làm khác lần sau: <<đọc guiline và checklist kĩ hơn>>

@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2B
 - Tài khoản GitHub: giappd-ai (giappdhe140952@gmail.com)
 - Repo bài nộp (URL): https://github.com/giappd-ai/K5-L2B-Day08-2A202603252-PhanDinhGiap-AI-Assisted-Labeling.git
-- Commit chốt bài (hash): <<1ad2451>>
+- Commit chốt bài (hash): 994f968
 - Máy: Windows 11 Home, NVIDIA GeForce RTX 3050 6GB Laptop GPU (CUDA, torch 2.6.0+cu124, ultralytics 8.4.215) — chạy model trên máy local, không dùng Colab
 - CVAT (Docker): v2.81.0 (cvat/server:v2.81.0, http://localhost:8080)
 

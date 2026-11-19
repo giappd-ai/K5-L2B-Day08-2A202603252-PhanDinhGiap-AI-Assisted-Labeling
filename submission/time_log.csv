@@ -1,1 +1,3 @@
 step,images,minutes,note
+gold_manual,4,8,"gán tay 4 ảnh gold trên CVAT, 56 đối tượng (≈2.0 phút/ảnh, ≈8.6 giây/đối tượng)"
+batch_review,24,50,"duyệt 24 ảnh batch có pre-label + bẫy, 503 đối tượng sau duyệt (≈2.1 phút/ảnh, ≈6.0 giây/đối tượng)"
